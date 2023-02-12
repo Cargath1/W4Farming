@@ -1,4 +1,13 @@
-# W4Farming
+# W4 Farming
 
-## A small farming game written in Wasm4
-I plan on adding releases in the future once the game gets to a point I'm proud of. However, if you would like to build it yourself run 'make'
+W4 Farming is a small game I've written in Wasm4, a fantasy console.
+I will post releases for it once it is at a point I'm happy with.
+
+## Usage
+Run make to build the program and run it in Wasm4
+```bash
+make
+npm install w4
+w4 run-native build/cart.wasm
+```
+
